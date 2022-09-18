@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+  max-width: 250px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.top-suit {
+  display: flex;
+  align-self: flex-start;
+  font-size: 3rem;
+  margin: 0 0 0 1rem;
+}
+
+.num {
+  margin: 50px 25px;
+  font-size: 5rem;
+}
+
+.bot-suit {
+  display: flex;
+  align-self: flex-end;
+  font-size: 3rem;
+  margin: 0 1rem 0 0;
+}
